@@ -16,6 +16,7 @@
     --sec-color: 	#8B2C2C;
     --main-color: #ff0033; 
     --sec-main-color: #facf5a;
+    --color: yellow;
 }
 
 html{
@@ -275,7 +276,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .3), var(--main-color));
+    background: linear-gradient(rgba(0, 0, 0, .3) var(--color);
     display: flex;
     justify-content: center;
     align-items: center;
